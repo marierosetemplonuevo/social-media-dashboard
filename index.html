@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="top">
+        <div class="header">
+          <p class="title">Social Media Dashboard</p>
+          <p class="total">Total Followers: 23,004</p>
+        </div>
+        <nav>
+          <div class="theme-switch-wrapper">
+            <p class="mode">Dark Mode</p>
+            <label class="theme-switch" for="checkbox">
+              <input type="checkbox" id="checkbox" />
+              <div class="slider round"></div>
+            </label>
+          </div>
+        </nav>
+      </div>
+      <div class="content">
+        <!-- <main class="main"> -->
+        <section class="cards">
+          <div class="card facebook">
+            <a href="#">
+              <div class="icon">
+                <img src="images/icon-facebook.svg" alt="icon-facebook" />
+                <p class="name">@nathanf</p>
+              </div>
+              <h1>1987</h1>
+              <p class="followers">Followers</p>
+              <p class="rateup">
+                <img src="images/icon-up.svg" alt="icon-up" />12 Today
+              </p>
+            </a>
+          </div>
+          <div class="card twitter">
+            <a href="#">
+              <div class="icon">
+                <img src="images/icon-twitter.svg" alt="icon-twitter" />
+                <p class="name">@nathanf</p>
+              </div>
+              <h1>1044</h1>
+              <p class="followers">Followers</p>
+              <p class="rateup">
+                <img src="images/icon-up.svg" alt="icon-up" />
+                99 Today
+              </p>
+            </a>
+          </div>
+          <div class="card insta">
+            <a href="#">
+              <div class="icon">
+                <img src="images/icon-instagram.svg" alt="icon-instagram" />
+                <p class="name">@realnathanf</p>
+              </div>
+              <h1>11k</h1>
+              <p class="followers">Followers</p>
+              <p class="rateup">
+                <img src="images/icon-up.svg" alt="icon-up" />1099 Today
+              </p>
+            </a>
+          </div>
+          <div class="card youtube">
+            <a href="#">
+              <div class="icon">
+                <img src="images/icon-youtube.svg" alt="icon-youtube" />
+                <p class="name">Nathan F.</p>
+              </div>
+              <h1>8239</h1>
+              <p class="followers">Subscribers</p>
+              <p class="ratedown">
+                <img src="images/icon-down.svg" alt="icon-down" />144 Today
+              </p>
+            </a>
+          </div>
+        </section>
+      </div>
+        <p class="overview">Overview - Today</p>
+          <section class="boards">
+            <div class="views">
+              <a href="#">
+                <div class="view">
+                  <div class="tab left"><p>Page Views</p></div>
+                  <div class="tab">
+                    <img src="images/icon-facebook.svg" alt="icon-facebook" />
+                  </div>
+                  <div class="tab left">
+                    <h2>87</h2>
+                  </div>
+                  <div class="tab">
+                    <p class="rateup-view">
+                      <img src="images/icon-up.svg" alt="icon-up" />3%
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="views">
+                <a href="#">
+                  <div class="view">
+                    <div class="tab left"><p>Likes</p></div>
+                    <div class="tab">
+                      <img src="images/icon-facebook.svg" alt="icon-facebook" />
+                    </div>
+                    <div class="tab left">
+                      <h2>52</h2>
+                    </div>
+                    <div class="tab">
+                      <p class="ratedown-view">
+                        <img src="images/icon-down.svg" alt="icon-up" />2%
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            <div class="views">
+              <a href="#">
+                <div class="view">
+                    <div class="tab left"><p>Likes</p></div>
+                    <div class="tab">
+                      <img src="images/icon-instagram.svg" alt="icon-instagram" />
+                    </div>
+                    <div class="tab left">
+                      <h2>5462</h2>
+                    </div>
+                    <div class="tab">
+                      <p class="rateup-view">
+                        <img src="images/icon-up.svg" alt="icon-up" />2257%
+                      </p>
+                    </div>
+                  </div>
+              </a>
+            </div>
+            <div class="views">
+                <a href="#">
+                  <div class="view">
+                      <div class="tab left"><p>Profile Views</p></div>
+                      <div class="tab">
+                        <img src="images/icon-instagram.svg" alt="icon-instagram" />
+                      </div>
+                      <div class="tab left">
+                        <h2>52k</h2>
+                      </div>
+                      <div class="tab">
+                        <p class="rateup-view">
+                          <img src="images/icon-up.svg" alt="icon-up" />1375%
+                        </p>
+                      </div>
+                    </div>
+                </a>
+              </div>
+              <div class="views">
+                  <a href="#">
+                    <div class="view">
+                        <div class="tab left"><p>Retweets</p></div>
+                        <div class="tab">
+                          <img src="images/icon-twitter.svg" alt="icon-twitter" />
+                        </div>
+                        <div class="tab left">
+                          <h2>117</h2>
+                        </div>
+                        <div class="tab">
+                          <p class="rateup-view">
+                            <img src="images/icon-up.svg" alt="icon-up" />303%
+                          </p>
+                        </div>
+                      </div>
+                  </a>
+                </div>
+                <div class="views">
+                    <a href="#">
+                      <div class="view">
+                          <div class="tab left"><p>Likes</p></div>
+                          <div class="tab">
+                            <img src="images/icon-twitter.svg" alt="icon-twitter" />
+                          </div>
+                          <div class="tab left">
+                            <h2>507</h2>
+                          </div>
+                          <div class="tab">
+                            <p class="rateup-view">
+                              <img src="images/icon-up.svg" alt="icon-up" />553%
+                            </p>
+                          </div>
+                        </div>
+                    </a>
+                  </div>   
+                  <div class="views">
+                      <a href="#">
+                        <div class="view">
+                          <div class="tab left"><p>Likes</p></div>
+                          <div class="tab">
+                            <img src="images/icon-youtube.svg" alt="icon-youtube" />
+                          </div>
+                          <div class="tab left">
+                            <h2>107</h2>
+                          </div>
+                          <div class="tab">
+                            <p class="ratedown-view">
+                              <img src="images/icon-down.svg" alt="icon-up" />19%
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="views">
+                        <a href="#">
+                          <div class="view">
+                            <div class="tab left"><p>Total Views</p></div>
+                            <div class="tab">
+                              <img src="images/icon-youtube.svg" alt="icon-youtube" />
+                            </div>
+                            <div class="tab left">
+                              <h2>1407</h2>
+                            </div>
+                            <div class="tab">
+                              <p class="ratedown-view">
+                                <img src="images/icon-down.svg" alt="icon-up" />12%
+                              </p>
+                            </div>
+                          </div>
+                        </a>
+                      </div>  
+          </section>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Marie Rose Templonuevo</a>.
+    </div>
+  </body>
+</html>
